@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        app:title="Registration"
+        app:titleTextColor="@android:color/white"
+        android:background="@color/colorRed"
+        android:layout_height="wrap_content"/>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_marginTop="32dp"
+                android:id="@+id/emailRegEditText"
+                android:layout_marginLeft="16dp"
+                android:hint="Email"
+                android:layout_marginRight="16dp"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:id="@+id/numberRegEditText"
+                android:hint="Number"
+                android:layout_marginRight="16dp"
+                android:layout_height="wrap_content"/>
+
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:hint="Name"
+                android:id="@+id/nameRegEditText"
+                android:layout_marginRight="16dp"
+                android:layout_height="wrap_content"/>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:id="@+id/heightRegEditText"
+                 android:inputType="number"
+                android:hint="Height"
+                android:layout_marginRight="16dp"
+                android:layout_height="wrap_content"/>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:hint="Weight"
+                android:inputType="number"
+                android:id="@+id/weightRegEditText"
+                android:layout_marginRight="16dp"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:hint="Age"
+                android:id="@+id/ageRegEditText"
+                android:inputType="number"
+                android:layout_marginRight="16dp"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:hint="Password"
+                android:id="@+id/passwordRegEditText"
+                android:layout_marginRight="16dp"
+                android:layout_height="wrap_content"/>
+
+
+
+            <Button
+                android:id="@+id/btn_registration_submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginTop="16dp"
+                android:text="Sign UP"
+                android:textColor="@android:color/white"
+                android:layout_marginEnd="32dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/rc_rectangle"
+             />
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+</LinearLayout>
